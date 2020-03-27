@@ -1,1 +1,2 @@
-Some text
+origin	https://github.com/andrewbmack/FEWD-ALbany-Spring-2020-PostSpringBreak (fetch)
+origin	https://github.com/andrewbmack/FEWD-ALbany-Spring-2020-PostSpringBreak (push)
