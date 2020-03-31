@@ -19,7 +19,6 @@
  */
 
 // var fullNameArray = [firstName, middleName, lastName];
-
 function createFullNameArray() {
   return fullNameArray;
 }
@@ -32,7 +31,6 @@ function createFullNameArray() {
  * @param {*} lName
  * @returns {String} string
  */
-
 function createGreeting(fName, mName, lName) {
   return greeting;
 }
