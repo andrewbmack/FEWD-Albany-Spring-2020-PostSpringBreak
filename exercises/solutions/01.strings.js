@@ -21,9 +21,7 @@
  * @description
  * create three varibles using the var, let, and const key words
  */
-var x = 42
-let myName = 'andrew'
-const pi = 3.14159
+
 /////////////////////////
 //////// Strings ////////
 /////////////////////////
@@ -40,29 +38,32 @@ const pi = 3.14159
  *
  */
 
-let firstName = 'andrew';
+let firstName = "Ramon";
 console.log(firstName);
 
 /**
  * @description
  * Create a variable called middleName and set the value to your middle name.
  */
-let middleName = 'b';
+let middleName = "Ambrose";
 console.log(middleName);
+
 /**
  * @description
  * Create a variable called lastName and set the value to your last name.
  */
-let lastName = 'mack';
+let lastName = "Vazquez";
 console.log(lastName);
+
 /**
  * @description
  * Create a variable called fullName. Assign it the values of firstName, middleName, and lastName
  *
  * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat
  */
-let fullName = firstName + middleName + lastName;
+let fullName = firstName + " " + middleName + " " + lastName;
 console.log(fullName);
+
 /**
  * @do
  * include this file in a new commit and push
