@@ -83,4 +83,16 @@ let states = [
   "wyoming"
 ];
 
+let statesTitleCased = []
+ 
+for (var i = 0; i < states.length; i++ ) {
+  let titleCased = states[i][0].toUpperCase() + states[i].slice(1)
+  statesTitleCased.push(titleCased)
+}
+
+
+
+
+console.log(statesTitleCased);
+
 
