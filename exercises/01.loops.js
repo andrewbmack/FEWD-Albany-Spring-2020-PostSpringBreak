@@ -43,3 +43,17 @@ const contacts = [
     tags: ["hero of the seven kingdoms", "the list", "faceless"]
   }
 ];
+// let name4 = contacts[].firstName + ' ' + contacts[].lastName
+
+// combine first and last names and phone numbers
+let name = contacts[0].firstName + ' ' + contacts[0].lastName + ' : ' + contacts[0].phone.cell + '/' + contacts[0].phone.work
+let name2 = contacts[1].firstName + ' ' + contacts[1].lastName + ' : ' + contacts[1].phone.cell + '/' + contacts[1].phone.work
+let name3 = contacts[2].firstName + ' ' + contacts[2].lastName + ' : ' + contacts[2].phone.cell + '/' + contacts[2].phone.work
+
+// store in an array
+let names = [name, name2, name3]
+
+// verify
+console.log(names[0])
+
+
