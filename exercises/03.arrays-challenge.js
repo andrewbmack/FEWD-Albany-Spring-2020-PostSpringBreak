@@ -19,7 +19,7 @@
 /**
  * @description
  * add a sixth name to the second index position of the names array.
- * store your resultes in a new array
+ * store your results in a new array
  * /
 
 /**
@@ -34,7 +34,7 @@ let states = [
   "alabama",
   "alaska",
   "arizona",
-  "arkansas",
+  "arkansas", 
   "california",
   "colorado",
   "connecticut",
@@ -82,17 +82,3 @@ let states = [
   "wisconsin",
   "wyoming"
 ];
-
-let statesTitleCased = []
- 
-for (var i = 0; i < states.length; i++ ) {
-  let titleCased = states[i][0].toUpperCase() + states[i].slice(1)
-  statesTitleCased.push(titleCased)
-}
-
-
-
-
-console.log(statesTitleCased);
-
-

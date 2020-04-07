@@ -17,6 +17,9 @@
  * Create an array named fullNameArray. Using fullName, populate fullNameArray with the values of your first middle and last names.
  * @returns {Array} array
  */
+ 
+let fullNameArray = ['andrew', 'b', 'mack']
+
 
 // var fullNameArray = [firstName, middleName, lastName];
 function createFullNameArray() {
@@ -31,9 +34,13 @@ function createFullNameArray() {
  * @param {*} lName
  * @returns {String} string
  */
-function createGreeting(fName, mName, lName) {
+let greeting = 'hello, my name is ' + fullNameArray[0] + fullNameArray[1] + fullNameArray[2]
+console.log(greeting);
+
+ function createGreeting(fName, mName, lName) {
   return greeting;
 }
+
 
 /**
  * @description
@@ -41,10 +48,12 @@ function createGreeting(fName, mName, lName) {
  *
  * @returns {Array} array
  */
+let takeOutFoods = ['pizza', 'indian', 'mexican', 'thai', 'southern'];
 
 function topFiveTakeOutFoods() {
   return takeoutFoods;
 }
+
 
 /**
  * @description
@@ -54,6 +63,9 @@ function topFiveTakeOutFoods() {
  */
 
 function removeFirstItem() {}
+takeOutFoods.shift()
+console.log(takeOutFoods)
+
 
 /**
  * @description
@@ -63,6 +75,10 @@ function removeFirstItem() {}
  */
 
 function addNewItemToBeginning() {}
+takeOutFoods.unshift('french');
+console.log(takeOutFoods)
+
+
 
 /**
  * @description
@@ -72,6 +88,10 @@ function addNewItemToBeginning() {}
  */
 
 function removeItemFromEnd() {}
+takeOutFoods.pop();
+console.log(takeOutFoods)
+
+
 
 /**
  * @description
@@ -81,6 +101,10 @@ function removeItemFromEnd() {}
  */
 
 function addItemToEnd() {}
+takeOutFoods.push('greek')
+console.log(takeOutFoods)
+
+
 
 /**
  * @description
@@ -90,6 +114,10 @@ function addItemToEnd() {}
  */
 
 function createSubArray() {}
+let favoriteFoods = takeOutFoods[1] + ' ' + takeOutFoods[2] + ' ' + takeOutFoods[3];
+console.log(favoriteFoods)
+ 
+
 
 /**
  * @description
@@ -99,6 +127,11 @@ function createSubArray() {}
  */
 
 function createNewArray() {}
+let newArray = []
+newArray = [takeOutFoods[2], takeOutFoods[3], takeOutFoods[4]]
+console.log(newArray)
+
+
 
 /**
  * @description
@@ -107,8 +140,11 @@ function createNewArray() {}
  * @returns {String} string
  */
 function createCommaDelimitedString() {}
+console.log(takeOutFoods.join(','))
+
 
 /**
  * @do
  * include this file in a new commit and push
  */
+
