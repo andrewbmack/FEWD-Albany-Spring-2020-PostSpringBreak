@@ -7,7 +7,13 @@
     <title>Intro to JavaScript</title>
   </head>
 
-  <style></style>
+  <style>
+
+.hide {
+        display:block;
+      }
+
+  </style>
   <body>
     <header>
       <div class="img-wrapper">
@@ -16,16 +22,72 @@
       <h1>Introduction to JavaScript</h1>
     </header>
     <main>
-      <section>
-        <p>
-          To open the console press
-          <span><code>ctrl + shift + i</code></span> or <code>F12</code> or
-          right click anywhere on this page and select
-          <i>inspect</i>
-        </p>
-      </section>
-    </main>
+      
+<input type="text" id='age'>
+<button id='btn'></button>
 
-    <script></script>
+<div id="message">
+
+</div>
+
+  </main>
+<!--  -->
+   
+
+<!-- <ul>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+  <li>four</li>
+</ul>
+
+<button id='btn'>Click me!</button> -->
+
+<!-- <form>
+
+<label for="">Name:</label>
+<input type="text">
+
+<label for="">Phone:</label>
+<input type="text">
+
+<label for="">Address:</label>
+<input type="text">
+
+<button type= 'submit'>Submit</button>
+
+</form> -->
+
+<script>
+const input = document.getElementsByClassName('input')[0] 
+const btn = document.getElementById('btn');
+const output = document.getElementById('output');
+
+const form = document.getElementsByTagName('form')[0];
+
+btn.addEventListener('click', function(event) {
+  for(let text in input) {}
+  output.innerText = input.value;
+  input.value = ''
+
+})
+
+
+const age = document.getElementById('age')
+
+btn.addEventListener('click', function() {
+   if (age.value >= 18){
+  console.log('you may enter')
+} else {
+  console.log('you need to be 18')
+}
+})
+
+
+
+</script>
+
+
+
   </body>
 </html>

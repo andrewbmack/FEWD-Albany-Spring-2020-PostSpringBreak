@@ -33,6 +33,7 @@ console.log(lastLetterOfFullName);
  * @description
  * create a substring from the last 5 characters
  */
+let lastFive = fullName.lastFive(fullName.length() - 4)
 
 /**
  * @do
